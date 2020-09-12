@@ -619,6 +619,9 @@
                   "type": "string"
                 }
               },
+              "header_media": {
+                "type": "string"
+              },
               "created_by": {
                 "type": "string"
               },

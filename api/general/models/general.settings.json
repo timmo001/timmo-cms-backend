@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "logo": {
+    "header_media": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
