@@ -15,7 +15,7 @@
     "welcome_message": {
       "type": "richtext"
     },
-    "logo": {
+    "header_media": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

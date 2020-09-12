@@ -324,7 +324,7 @@
           "welcome_message": {
             "type": "string"
           },
-          "logo": {
+          "header_media": {
             "required": [
               "id",
               "name",
