@@ -1,4 +1,7 @@
 module.exports = {
-  categories: [{ name: "Personal" }],
+  about: {},
   articles: [],
+  categories: [{ name: "Personal" }],
+  general: {},
+  homepage: {},
 };
