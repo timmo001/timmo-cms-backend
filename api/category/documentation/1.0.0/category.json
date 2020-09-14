@@ -532,8 +532,7 @@
               "required": [
                 "id",
                 "title",
-                "content",
-                "image"
+                "content"
               ],
               "properties": {
                 "id": {
@@ -545,7 +544,7 @@
                 "content": {
                   "type": "string"
                 },
-                "image": {
+                "header_media": {
                   "type": "string"
                 },
                 "published_at": {
@@ -553,6 +552,18 @@
                 },
                 "category": {
                   "type": "string"
+                },
+                "thumbnail_media": {
+                  "type": "string"
+                },
+                "showcase_media": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "showcase_slides": {
+                  "type": "integer"
                 },
                 "created_by": {
                   "type": "string"

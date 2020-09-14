@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/12/2020 6:16:02 PM"
+    "x-generation-date": "09/14/2020 8:40:59 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3990,8 +3990,7 @@
         "required": [
           "id",
           "title",
-          "content",
-          "image"
+          "content"
         ],
         "properties": {
           "id": {
@@ -4003,7 +4002,7 @@
           "content": {
             "type": "string"
           },
-          "image": {
+          "header_media": {
             "required": [
               "id",
               "name",
@@ -4101,6 +4100,147 @@
                 "type": "string"
               }
             }
+          },
+          "thumbnail_media": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "showcase_media": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name",
+                "hash",
+                "mime",
+                "size",
+                "url",
+                "provider"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "alternativeText": {
+                  "type": "string"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                },
+                "formats": {
+                  "type": "object"
+                },
+                "hash": {
+                  "type": "string"
+                },
+                "ext": {
+                  "type": "string"
+                },
+                "mime": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "number"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "previewUrl": {
+                  "type": "string"
+                },
+                "provider": {
+                  "type": "string"
+                },
+                "provider_metadata": {
+                  "type": "object"
+                },
+                "related": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "showcase_slides": {
+            "type": "integer",
+            "default": 3
           },
           "created_by": {
             "required": [
@@ -4210,6 +4350,10 @@
           "category": {
             "type": "string"
           },
+          "showcase_slides": {
+            "type": "integer",
+            "default": 3
+          },
           "created_by": {
             "type": "string"
           },
@@ -4236,8 +4380,7 @@
               "required": [
                 "id",
                 "title",
-                "content",
-                "image"
+                "content"
               ],
               "properties": {
                 "id": {
@@ -4249,7 +4392,7 @@
                 "content": {
                   "type": "string"
                 },
-                "image": {
+                "header_media": {
                   "type": "string"
                 },
                 "published_at": {
@@ -4257,6 +4400,18 @@
                 },
                 "category": {
                   "type": "string"
+                },
+                "thumbnail_media": {
+                  "type": "string"
+                },
+                "showcase_media": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "showcase_slides": {
+                  "type": "integer"
                 },
                 "created_by": {
                   "type": "string"
@@ -4733,7 +4888,7 @@
           "content": {
             "type": "string"
           },
-          "slider_media": {
+          "showcase_media": {
             "type": "array",
             "items": {
               "required": [
@@ -4803,9 +4958,76 @@
               }
             }
           },
-          "slider_slides": {
+          "showcase_slides": {
             "type": "integer",
             "default": 3
+          },
+          "header_media": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
           "created_by": {
             "required": [
@@ -4909,7 +5131,7 @@
           "content": {
             "type": "string"
           },
-          "slider_slides": {
+          "showcase_slides": {
             "type": "integer",
             "default": 3
           },

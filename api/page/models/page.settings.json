@@ -17,7 +17,7 @@
       "type": "richtext",
       "required": true
     },
-    "slider_media": {
+    "showcase_media": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -28,11 +28,22 @@
       "plugin": "upload",
       "required": false
     },
-    "slider_slides": {
+    "showcase_slides": {
       "type": "integer",
       "required": false,
       "min": 1,
       "default": 3
+    },
+    "header_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

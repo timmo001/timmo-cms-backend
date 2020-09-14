@@ -18,19 +18,46 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
+    "header_media": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "published_at": {
       "type": "date",
       "required": false
     },
     "category": {
-      "via": "articles",
-      "model": "category"
+      "model": "category",
+      "via": "articles"
+    },
+    "thumbnail_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "showcase_media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "showcase_slides": {
+      "type": "integer",
+      "min": 1,
+      "default": 3
     }
   }
 }
