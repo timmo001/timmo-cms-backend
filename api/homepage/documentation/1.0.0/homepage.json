@@ -321,9 +321,6 @@
           "articles_heading": {
             "type": "string"
           },
-          "welcome_message": {
-            "type": "string"
-          },
           "header_media": {
             "required": [
               "id",
@@ -468,6 +465,9 @@
             "type": "integer",
             "default": 3
           },
+          "welcome_message": {
+            "type": "string"
+          },
           "created_by": {
             "required": [
               "id",
@@ -563,15 +563,15 @@
           "articles_heading": {
             "type": "string"
           },
-          "welcome_message": {
-            "type": "string"
-          },
           "showcase_heading": {
             "type": "string"
           },
           "showcase_slides": {
             "type": "integer",
             "default": 3
+          },
+          "welcome_message": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

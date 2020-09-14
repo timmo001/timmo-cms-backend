@@ -12,9 +12,6 @@
     "articles_heading": {
       "type": "string"
     },
-    "welcome_message": {
-      "type": "richtext"
-    },
     "header_media": {
       "model": "file",
       "via": "related",
@@ -44,6 +41,9 @@
       "type": "integer",
       "min": 1,
       "default": 3
+    },
+    "welcome_message": {
+      "type": "text"
     }
   }
 }
