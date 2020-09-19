@@ -58,6 +58,10 @@
       "type": "integer",
       "min": 1,
       "default": 3
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "article"
     }
   }
 }
