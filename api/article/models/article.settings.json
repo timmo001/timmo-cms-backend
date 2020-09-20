@@ -60,8 +60,8 @@
       "default": 3
     },
     "tags": {
-      "collection": "tag",
-      "via": "article"
+      "via": "articles",
+      "collection": "tag"
     }
   }
 }

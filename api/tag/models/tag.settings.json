@@ -12,9 +12,10 @@
     "name": {
       "type": "string"
     },
-    "article": {
+    "articles": {
+      "collection": "article",
       "via": "tags",
-      "model": "article"
+      "dominant": true
     }
   }
 }

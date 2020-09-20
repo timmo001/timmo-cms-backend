@@ -525,54 +525,57 @@
           "name": {
             "type": "string"
           },
-          "article": {
-            "required": [
-              "id",
-              "title",
-              "content"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "title": {
-                "type": "string"
-              },
-              "content": {
-                "type": "string"
-              },
-              "header_media": {
-                "type": "string"
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "category": {
-                "type": "string"
-              },
-              "thumbnail_media": {
-                "type": "string"
-              },
-              "showcase_media": {
-                "type": "array",
-                "items": {
+          "articles": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "title",
+                "content"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "string"
+                },
+                "header_media": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "thumbnail_media": {
+                  "type": "string"
+                },
+                "showcase_media": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "showcase_slides": {
+                  "type": "integer"
+                },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
                   "type": "string"
                 }
-              },
-              "showcase_slides": {
-                "type": "integer"
-              },
-              "tags": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
               }
             }
           },
@@ -671,8 +674,11 @@
           "name": {
             "type": "string"
           },
-          "article": {
-            "type": "string"
+          "articles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "created_by": {
             "type": "string"
