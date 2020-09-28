@@ -8217,7 +8217,7 @@ react-fast-compare@^3.1.1, react-fast-compare@^3.2.0:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
-react-helmet@^6.0.0, react-helmet@^6.1.0:
+react-helmet@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
   integrity sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==
@@ -9564,15 +9564,6 @@ strapi-database@3.1.6:
     p-map "4.0.0"
     verror "^1.10.0"
 
-strapi-generate-api@3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.1.5.tgz#42440c68269eda102b39265233dd3fb98a1051b9"
-  integrity sha512-oykA4bC8LLy6RNT8XdDc1LEDJx8ZPeDbE6dxekJRLSNRJjxsKet6hA+aXcs7nSsxjbr2iJ5wK457ixJS40eNHA==
-  dependencies:
-    lodash "4.17.19"
-    pluralize "^8.0.0"
-    strapi-utils "3.1.5"
-
 strapi-generate-api@3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.1.6.tgz#6a4b89f49a5ce1f91021a3cf7cd083582c1d74fe"
@@ -9640,17 +9631,6 @@ strapi-generate-service@3.1.6:
     lodash "4.17.19"
     strapi-utils "3.1.6"
 
-strapi-generate@3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.1.5.tgz#12f687032089696a2c94bb12875a49aa28c852b7"
-  integrity sha512-EY4vg+918wJQiBU88Bxg4VjHA6T+K1h3e3AnSBSuG/Bra8WYrJ00pMCrK5b2yBxwfMIx5/SrwYhuJp/gL0Aw9g==
-  dependencies:
-    async "^2.6.2"
-    fs-extra "^9.0.1"
-    lodash "4.17.19"
-    reportback "^2.0.2"
-    strapi-utils "3.1.5"
-
 strapi-generate@3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.1.6.tgz#8d4c5e9c49afbd0d0e90844839cf7e6f9f7bd459"
@@ -9680,32 +9660,6 @@ strapi-helper-plugin@3.1.4:
     moment "^2.16.0"
     react "^16.9.0"
     react-dom "^16.9.0"
-    react-intl "4.5.0"
-    react-router "^5.0.0"
-    react-router-dom "^5.0.0"
-    reactstrap "8.4.1"
-    styled-components "^5.0.0"
-    whatwg-fetch "^3.3.1"
-
-strapi-helper-plugin@3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.1.5.tgz#3b4cd6a473e170d38a079df8cc8aec4f0f99f39a"
-  integrity sha512-oiGtozWRe84mCAxY+XQ9zLrUc2LSeWovSUpkjhzq80Gwn8xi1VeE1Ptd/DPupFDkOBXMOiId0vOcFKPKvj81Rw==
-  dependencies:
-    "@buffetjs/core" "3.2.3"
-    "@buffetjs/hooks" "3.2.3"
-    "@buffetjs/icons" "3.2.3"
-    "@buffetjs/styles" "3.2.3"
-    "@buffetjs/utils" "3.2.3"
-    bootstrap "^4.5.2"
-    classnames "^2.2.5"
-    immutable "^3.8.2"
-    invariant "^2.2.1"
-    lodash "4.17.19"
-    moment "^2.16.0"
-    react "^16.13.1"
-    react-dom "^16.9.0"
-    react-helmet "^6.0.0"
     react-intl "4.5.0"
     react-router "^5.0.0"
     react-router-dom "^5.0.0"
@@ -9777,10 +9731,10 @@ strapi-plugin-content-manager@3.1.6:
     strapi-utils "3.1.6"
     yup "^0.27.0"
 
-strapi-plugin-content-type-builder@3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.1.5.tgz#64578c5c4fff6d729ac0cbb4d95ee27de31f273e"
-  integrity sha512-0n52nt7zTtOqTzJfG7y6GhqpFwwW3xSMA/NyHEHrHYQu9uyPbr7TrLHJSMi9WojghSyysBYU02Wh+p0Gj/TMOw==
+strapi-plugin-content-type-builder@3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.1.6.tgz#debbfa0f23a6db35bbcc80e41198b0f18c785217"
+  integrity sha512-cz47QIEJOEwy1fU8wmYHZLlIFklsjqSHXHem4U6qVe/U9dleLHq0aYfnUDLR60ddaRvlWH8dd98owsbow4b/bQ==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     fs-extra "^9.0.1"
@@ -9797,10 +9751,10 @@ strapi-plugin-content-type-builder@3.1.5:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-generate "3.1.5"
-    strapi-generate-api "3.1.5"
-    strapi-helper-plugin "3.1.5"
-    strapi-utils "3.1.5"
+    strapi-generate "3.1.6"
+    strapi-generate-api "3.1.6"
+    strapi-helper-plugin "3.1.6"
+    strapi-utils "3.1.6"
     yup "^0.27.0"
 
 strapi-plugin-documentation@3.1.6:
