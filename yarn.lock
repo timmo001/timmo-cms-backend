@@ -9571,10 +9571,10 @@ strapi-admin@3.1.6:
     webpackbar "^4.0.0"
     yup "^0.27.0"
 
-strapi-connector-bookshelf@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.1.4.tgz#c21c8e68e40d4ea906dd45bf1b160931fd4bb7e5"
-  integrity sha512-AB83FeLUgrNFiICBemE1fCnlmcWG9uArjuPXe6L1I7ThMTyw7FYecYWu0vP6EGu6SjXNUywPsYkMrTtVeT59uQ==
+strapi-connector-bookshelf@3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.1.6.tgz#10071134049b65ab146a0a5e57f55364a1d98886"
+  integrity sha512-AQvZgmEbJN8C5jdNLpns8W0LFemWlxv5DhozzZokcf5IVuOwctSRSE4DZnpTZ0Gs7N/knKQhpBsGeRUR8YJG6A==
   dependencies:
     bookshelf "^1.0.1"
     date-fns "^2.8.1"
@@ -9583,7 +9583,7 @@ strapi-connector-bookshelf@3.1.4:
     p-map "4.0.0"
     pluralize "^8.0.0"
     rimraf "3.0.0"
-    strapi-utils "3.1.4"
+    strapi-utils "3.1.6"
 
 strapi-database@3.1.4:
   version "3.1.4"
