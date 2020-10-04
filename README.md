@@ -1,3 +1,3 @@
-# Timmo CMS
+# Timmo CMS - Backend
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Backend for my website using Strapi CMS.
