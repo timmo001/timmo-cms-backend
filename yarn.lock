@@ -9809,18 +9809,6 @@ strapi-provider-upload-local@3.1.6:
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.1.6.tgz#7ab97619331abd32aba01fbfa8303690463150ca"
   integrity sha512-0ZIAnmyit3t+ZKKwY0bKNJY/+em5JhJEGOLoFWZ3pteKbjWM6xQhy+qdhbvdsyFKZ9zteiUPqTInk5PmiGHp6w==
 
-strapi-utils@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.1.4.tgz#77a5d03ef9de8da5653f3e9275d24e8a062a6266"
-  integrity sha512-BcRW6xcwW0glisgJ3VR+XkakV9Bza5JLY9+ndgo/yjmCthjLobUO/Dc/9T35eCkyReXYweCquW/HoPkOMbdm9g==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "^2.8.1"
-    lodash "4.17.19"
-    pino "^4.7.1"
-    pluralize "^8.0.0"
-    yup "0.28.1"
-
 strapi-utils@3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.1.6.tgz#e95d955cd47caf2dba285f599392006a5e91801e"

@@ -16,6 +16,9 @@
       "collection": "article",
       "via": "tags",
       "dominant": true
+    },
+    "color": {
+      "type": "string"
     }
   }
 }
