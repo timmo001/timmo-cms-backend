@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/05/2020 6:26:30 PM"
+    "x-generation-date": "10/07/2020 5:55:50 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4626,9 +4626,6 @@
               }
             }
           },
-          "published_at": {
-            "type": "string"
-          },
           "category": {
             "required": [
               "id",
@@ -4829,6 +4826,9 @@
                 }
               }
             }
+          },
+          "published_at": {
+            "type": "datetime"
           }
         }
       },
@@ -4844,9 +4844,6 @@
           "content": {
             "type": "string"
           },
-          "published_at": {
-            "type": "string"
-          },
           "category": {
             "type": "string"
           },
@@ -4859,6 +4856,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "published_at": {
+            "type": "datetime"
           },
           "created_by": {
             "type": "string"
@@ -4901,9 +4901,6 @@
                 "header_media": {
                   "type": "string"
                 },
-                "published_at": {
-                  "type": "string"
-                },
                 "category": {
                   "type": "string"
                 },
@@ -4924,6 +4921,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "published_at": {
+                  "type": "datetime"
                 },
                 "created_by": {
                   "type": "string"
@@ -5240,9 +5240,6 @@
                 "header_media": {
                   "type": "string"
                 },
-                "published_at": {
-                  "type": "string"
-                },
                 "category": {
                   "type": "string"
                 },
@@ -5263,6 +5260,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "published_at": {
+                  "type": "datetime"
                 },
                 "created_by": {
                   "type": "string"

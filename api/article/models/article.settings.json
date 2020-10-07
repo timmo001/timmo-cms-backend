@@ -3,11 +3,13 @@
   "connection": "default",
   "collectionName": "articles",
   "info": {
-    "name": "article"
+    "name": "article",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "title": {
@@ -22,10 +24,6 @@
       "model": "file",
       "via": "related",
       "plugin": "upload",
-      "required": false
-    },
-    "published_at": {
-      "type": "date",
       "required": false
     },
     "category": {
@@ -60,8 +58,8 @@
       "default": 3
     },
     "tags": {
-      "via": "articles",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "articles"
     }
   }
 }

@@ -546,9 +546,6 @@
                 "header_media": {
                   "type": "string"
                 },
-                "published_at": {
-                  "type": "string"
-                },
                 "category": {
                   "type": "string"
                 },
@@ -569,6 +566,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "published_at": {
+                  "type": "datetime"
                 },
                 "created_by": {
                   "type": "string"
