@@ -9988,33 +9988,6 @@ strapi-helper-plugin@3.3.0:
     styled-components "^5.0.0"
     whatwg-fetch "^3.3.1"
 
-strapi-helper-plugin@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.3.1.tgz#3123ecc560244381d63a3ed2004edcf4c00e8819"
-  integrity sha512-IWmnbQRDyQJHOrPW6WlCohXSBQen712h717M/XS83TEcN+sYEAhD1MGQPvz/c7N7N+X3PkYdK/9j27PhDBmC+w==
-  dependencies:
-    "@buffetjs/core" "3.3.1"
-    "@buffetjs/custom" "3.3.1"
-    "@buffetjs/hooks" "3.3.1"
-    "@buffetjs/icons" "3.3.1"
-    "@buffetjs/styles" "3.3.1"
-    "@buffetjs/utils" "3.3.1"
-    bootstrap "^4.5.2"
-    classnames "^2.2.5"
-    immutable "^3.8.2"
-    invariant "^2.2.1"
-    lodash "4.17.19"
-    moment "^2.16.0"
-    react "^16.13.1"
-    react-dom "^16.9.0"
-    react-helmet "^6.1.0"
-    react-intl "4.5.0"
-    react-router "^5.0.0"
-    react-router-dom "^5.0.0"
-    reactstrap "8.4.1"
-    styled-components "^5.0.0"
-    whatwg-fetch "^3.3.1"
-
 strapi-helper-plugin@3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.3.2.tgz#e8d1982427572a48ac4130854adab54e41fc54c2"
@@ -10042,10 +10015,10 @@ strapi-helper-plugin@3.3.2:
     styled-components "^5.0.0"
     whatwg-fetch "^3.3.1"
 
-strapi-plugin-content-manager@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.3.1.tgz#e6a188b3f06b659adb441d3d02e90d2e180c3503"
-  integrity sha512-4J1lohDM+VMqfKlCtp6opQAmtUNFE/8xvMP+Vjfqf1OEBpfYdKUR9i5sXIsvJc7Eo/KjVVkCVBmtk78ShHEvDg==
+strapi-plugin-content-manager@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.3.2.tgz#ceba90a1fc2f4bff9de25cd237f5184af6ceb63e"
+  integrity sha512-bOBmBbahc/QWHZzdiUrRSPCAmz3Q2g6PDHQS2HzN7UKC+r86bQpmUkYGAKMIKWUwxmkIr4sgNr0V7tciwsRmhw==
   dependencies:
     "@buffetjs/core" "3.3.1"
     "@buffetjs/custom" "3.3.1"
@@ -10083,8 +10056,8 @@ strapi-plugin-content-manager@3.3.1:
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
     sanitize-html "2.1.1"
-    strapi-helper-plugin "3.3.1"
-    strapi-utils "3.3.1"
+    strapi-helper-plugin "3.3.2"
+    strapi-utils "3.3.2"
     yup "^0.27.0"
 
 strapi-plugin-content-type-builder@3.3.2:
