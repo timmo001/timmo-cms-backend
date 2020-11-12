@@ -10038,33 +10038,6 @@ strapi-generate@3.3.2:
     reportback "^2.0.2"
     strapi-utils "3.3.2"
 
-strapi-helper-plugin@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.3.0.tgz#a74d17656877e192cc15742d9bfb6a4c6360f6af"
-  integrity sha512-Wv2X0AG+KTvqySssGJTqTsvmw2gBpueq8paoyyEU9X85v9QEzA0cya1DQtAWkNOqQ5Rg0kG1bnooajtVTrNtCA==
-  dependencies:
-    "@buffetjs/core" "3.3.1"
-    "@buffetjs/custom" "3.3.1"
-    "@buffetjs/hooks" "3.3.1"
-    "@buffetjs/icons" "3.3.1"
-    "@buffetjs/styles" "3.3.1"
-    "@buffetjs/utils" "3.3.1"
-    bootstrap "^4.5.2"
-    classnames "^2.2.5"
-    immutable "^3.8.2"
-    invariant "^2.2.1"
-    lodash "4.17.19"
-    moment "^2.16.0"
-    react "^16.13.1"
-    react-dom "^16.9.0"
-    react-helmet "^6.1.0"
-    react-intl "4.5.0"
-    react-router "^5.0.0"
-    react-router-dom "^5.0.0"
-    reactstrap "8.4.1"
-    styled-components "^5.0.0"
-    whatwg-fetch "^3.3.1"
-
 strapi-helper-plugin@3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.3.2.tgz#e8d1982427572a48ac4130854adab54e41fc54c2"
@@ -10232,10 +10205,10 @@ strapi-plugin-graphql@3.3.0:
     pluralize "^8.0.0"
     strapi-utils "3.3.0"
 
-strapi-plugin-upload@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.3.0.tgz#46e59310ab9d11bf510fe5886b801abcf97fcd67"
-  integrity sha512-Wx8sRkODEC1UXznTvj9yrGEk7wIT5okzHYIlJVBOFcowlPcqULBfGhtlB1Vf48sMF30Jrg1LYVL1PVfnGQpD/A==
+strapi-plugin-upload@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.3.2.tgz#f65548e4986032fb64ffa3a8f137bb99217320cc"
+  integrity sha512-W5sgYB6fiHLPfYF+69KdUWNVqVYSgP/O+Enbgb76PAtMgbv7wuR8EHnwIXjovsauYaK4YjEL+8oumfvJrExP6g==
   dependencies:
     "@buffetjs/core" "3.3.1"
     "@buffetjs/custom" "3.3.1"
@@ -10261,9 +10234,9 @@ strapi-plugin-upload@3.3.0:
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     sharp "0.26.2"
-    strapi-helper-plugin "3.3.0"
-    strapi-provider-upload-local "3.3.0"
-    strapi-utils "3.3.0"
+    strapi-helper-plugin "3.3.2"
+    strapi-provider-upload-local "3.3.2"
+    strapi-utils "3.3.2"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
@@ -10315,10 +10288,10 @@ strapi-provider-upload-cloudinary@3.3.2:
     cloudinary "^1.23.0"
     into-stream "^5.1.0"
 
-strapi-provider-upload-local@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.3.0.tgz#d1d6442442eeafd400a965c411fd50fed9c81c63"
-  integrity sha512-9WHufys4bxBXM4NCky02eVbWh/EYhfY0r1oSCia9s2WFh0bBUxHYYuHm3XPqX6XQobJOvjirsdXW57uzO3l39g==
+strapi-provider-upload-local@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.3.2.tgz#b8cd198120e9dccb73c0e7767ea7bc69c637a000"
+  integrity sha512-EAYTTm26+AVIG9v38TcoZMbQhMG5K2YboLAODw5dCeiuuj+eWi74CFxOSSvFrc2DUp2Ax9tk2m4CojwUtPaMpw==
 
 strapi-utils@3.3.0:
   version "3.3.0"
