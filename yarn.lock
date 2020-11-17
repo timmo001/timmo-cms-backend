@@ -2706,11 +2706,6 @@ bootstrap@^4.5.2, bootstrap@^4.5.3:
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.3.tgz#c6a72b355aaf323920be800246a6e4ef30997fe6"
   integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
 
-bootstrap@^4.5.3:
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.3.tgz#c6a72b355aaf323920be800246a6e4ef30997fe6"
-  integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
-
 boxen@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-4.2.0.tgz#e411b62357d6d6d36587c8ac3d5d974daa070e64"
@@ -9910,10 +9905,10 @@ strapi-admin@3.3.3:
     webpackbar "^4.0.0"
     yup "^0.27.0"
 
-strapi-connector-bookshelf@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.3.2.tgz#90871eb73798a7098f6f282b4557047c38acf5cc"
-  integrity sha512-aZR7rgtbHQgiJWtVLxJw0YGqqbOulWJkLO9WQPuV9uVI3j7w5jz0eel628BJTBNF26qbHyGXcC9nxav+f8SPGw==
+strapi-connector-bookshelf@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.3.3.tgz#ef3e5ff1fcecabc05631bff370325b1751d9d2c0"
+  integrity sha512-8Ac4i/gsuBFj1fd5UcxKdvRgLp7UrCYqj52XM1A16RF5zjhNJMSdL4anA0+0ECKgjrxwqSPALDGaaU2mgqJuYA==
   dependencies:
     bookshelf "^1.0.1"
     date-fns "^2.8.1"
@@ -9922,7 +9917,7 @@ strapi-connector-bookshelf@3.3.2:
     p-map "4.0.0"
     pluralize "^8.0.0"
     rimraf "3.0.2"
-    strapi-utils "3.3.2"
+    strapi-utils "3.3.3"
 
 strapi-database@3.3.2:
   version "3.3.2"
