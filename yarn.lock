@@ -2706,6 +2706,11 @@ bootstrap@^4.5.2:
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.2.tgz#a85c4eda59155f0d71186b6e6ad9b875813779ab"
   integrity sha512-vlGn0bcySYl/iV+BGA544JkkZP5LB3jsmkeKLFQakCOwCM3AOk7VkldBz4jrzSe+Z0Ezn99NVXa1o45cQY4R6A==
 
+bootstrap@^4.5.3:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.3.tgz#c6a72b355aaf323920be800246a6e4ef30997fe6"
+  integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
+
 boxen@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-4.2.0.tgz#e411b62357d6d6d36587c8ac3d5d974daa070e64"
@@ -10045,6 +10050,33 @@ strapi-helper-plugin@3.3.2:
     styled-components "^5.0.0"
     whatwg-fetch "^3.3.1"
 
+strapi-helper-plugin@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.3.3.tgz#7b127fbe6053cca09d7a29e341ffdb23120d596c"
+  integrity sha512-NbSUNAvXcfkYzGXppB7qieE+NZfblerrakBr4uObMNhM3CA0V0yNNUxV9fZyrWkWcGSmDQlr6fesuR5vVF5Wug==
+  dependencies:
+    "@buffetjs/core" "3.3.1"
+    "@buffetjs/custom" "3.3.1"
+    "@buffetjs/hooks" "3.3.1"
+    "@buffetjs/icons" "3.3.1"
+    "@buffetjs/styles" "3.3.1"
+    "@buffetjs/utils" "3.3.1"
+    bootstrap "^4.5.3"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "4.17.19"
+    moment "^2.16.0"
+    react "^16.13.1"
+    react-dom "^16.9.0"
+    react-helmet "^6.1.0"
+    react-intl "4.5.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^3.3.1"
+
 strapi-plugin-content-manager@3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.3.2.tgz#ceba90a1fc2f4bff9de25cd237f5184af6ceb63e"
@@ -10122,10 +10154,10 @@ strapi-plugin-content-type-builder@3.3.2:
     strapi-utils "3.3.2"
     yup "^0.27.0"
 
-strapi-plugin-documentation@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.3.2.tgz#65bd30c9ed7af03cee8b43a6922d2c7d0c005879"
-  integrity sha512-9c8PWjhzf59Jey9QXBSHF8PHxRfoMm5ezcpCxnm71dbhJlAqmGJDsNq3wkaEqB/QSK41AURL8YhzcD40y3PZ7w==
+strapi-plugin-documentation@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.3.3.tgz#f784ed17f3b23c364a4eff50f130d812a0f8e0c5"
+  integrity sha512-Tu3UpkgQ7vXrHjD1uBoEUvJ0rbMnKjAS2gldPBR9T146Z9qoVodhI4RscFN2RGTUtuZtTslj9mpbPTgWYHcpUA==
   dependencies:
     "@buffetjs/core" "3.3.1"
     "@buffetjs/custom" "3.3.1"
@@ -10151,7 +10183,7 @@ strapi-plugin-documentation@3.3.2:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-helper-plugin "3.3.2"
+    strapi-helper-plugin "3.3.3"
     swagger-ui-dist "3.35.0"
 
 strapi-plugin-email@3.3.2:
