@@ -10154,10 +10154,10 @@ strapi-plugin-email@3.3.3:
     strapi-provider-email-sendmail "3.3.3"
     strapi-utils "3.3.3"
 
-strapi-plugin-graphql@3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.3.3.tgz#f716fa54bd676b954f1b96a1d71439287515701e"
-  integrity sha512-jHPdg/lM9Qi4Qyg0OUBR0DaIUwejGCHDJ3OlDkLJdNw3qyesDGM7MCoM2T1Sv47wH5aOtD+E7Sg3xH2D6h0URg==
+strapi-plugin-graphql@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.3.4.tgz#66d729bf3aa4bcd0fdb7bbe164a5a08a889657ea"
+  integrity sha512-kzuZoqr7vYlJy7R8Ug7eWPGYB4jgnNPVmZIKVPFVwhz7Hglye0e0W52CCnDCkGnsfYoqIV84oHlPK0Z8Gnsj4A==
   dependencies:
     "@apollo/federation" "^0.20.1"
     apollo-server-koa "2.18.2"
@@ -10174,7 +10174,7 @@ strapi-plugin-graphql@3.3.3:
     koa-compose "^4.1.0"
     lodash "4.17.20"
     pluralize "^8.0.0"
-    strapi-utils "3.3.3"
+    strapi-utils "3.3.4"
 
 strapi-plugin-upload@3.3.3:
   version "3.3.3"
@@ -10268,6 +10268,18 @@ strapi-utils@3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.3.3.tgz#9b8cdd263735e8eab48f4e2f2b31424c823793f1"
   integrity sha512-up7SEMZFE3pmKVCZ93y/wu8efIs2dmU/yHcrYBhu2A0VKgNOVQ94M31CnayrY2tpJ3/xm4oxmWyb7fC8jX5fdw==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.19"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.3.4.tgz#d45148779897dc6705a7afb46fe49368b4a4e11e"
+  integrity sha512-5rIberNccSIzKQGtfnsH37fBjDmsMkP2Lak1qlioYbohlhel23rN7nvq7PRN+VlFoNVsZAIj91mveZKKG1tsvw==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
