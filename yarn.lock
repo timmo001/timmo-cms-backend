@@ -2978,10 +2978,10 @@ busboy@^0.3.1:
   dependencies:
     dicer "0.3.0"
 
-byte-size@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/byte-size/-/byte-size-6.2.0.tgz#39fd52adedbbf7e8c3b3f7dea05e441549375c28"
-  integrity sha512-6EspYUCAPMc7E2rltBgKwhG+Cmk0pDm9zDtF1Awe2dczNUL3YpZ8mTs/dueOTS1hqGWBOatqef4jYMGjln7WmA==
+byte-size@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/byte-size/-/byte-size-7.0.0.tgz#36528cd1ca87d39bd9abd51f5715dc93b6ceb032"
+  integrity sha512-NNiBxKgxybMBtWdmvx7ZITJi4ZG+CYUgwOSZTfqB1qogkRHrhbQE/R2r5Fh94X+InN5MCYz6SvB/ejHMj/HbsQ==
 
 bytes@3.0.0:
   version "3.0.0"
@@ -7270,6 +7270,11 @@ moment-timezone@^0.5.21, moment-timezone@^0.5.31:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
+moment@^2.29.1:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+
 mongodb@3.6.2:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.6.2.tgz#1154a4ac107bf1375112d83a29c5cf97704e96b6"
@@ -10310,18 +10315,18 @@ strapi-plugin-graphql@3.3.4:
     pluralize "^8.0.0"
     strapi-utils "3.3.4"
 
-strapi-plugin-upload@3.3.4:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.3.4.tgz#3aa3f8ddfd2e3818c694f6f3afff9cea5fcedcb9"
-  integrity sha512-GNc2P3/vbuRSDHTbIbhCcxzlK2ct/t+IKcNKyOQ98GKPb7DsWBX4IH4T1kQ5S9ZPRvHe48pQ2COjy+n9H4KveA==
+strapi-plugin-upload@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.4.0.tgz#ed45416cbbba9815ecdbbf702a8b7139330f94aa"
+  integrity sha512-gzSE+tXyfaHjt/GFYfpS/LmTWANEmKeB3VlTfbb6JDEtglg8lE1HsjJKHj1CqP2VUq6zzqdiQqLgv63mgfAHdQ==
   dependencies:
-    "@buffetjs/core" "3.3.1"
-    "@buffetjs/custom" "3.3.1"
-    "@buffetjs/hooks" "3.3.1"
-    "@buffetjs/icons" "3.3.1"
-    "@buffetjs/styles" "3.3.1"
-    "@buffetjs/utils" "3.3.1"
-    byte-size "^6.2.0"
+    "@buffetjs/core" "3.3.2-next.2"
+    "@buffetjs/custom" "3.3.2-next.2"
+    "@buffetjs/hooks" "3.3.2-next.2"
+    "@buffetjs/icons" "3.3.2-next.2"
+    "@buffetjs/styles" "3.3.2-next.2"
+    "@buffetjs/utils" "3.3.2-next.2"
+    byte-size "^7.0.0"
     cropperjs "^1.5.6"
     immer "^7.0.14"
     immutable "^3.8.2"
@@ -10339,9 +10344,9 @@ strapi-plugin-upload@3.3.4:
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     sharp "0.26.2"
-    strapi-helper-plugin "3.3.4"
-    strapi-provider-upload-local "3.3.4"
-    strapi-utils "3.3.4"
+    strapi-helper-plugin "3.4.0"
+    strapi-provider-upload-local "3.4.0"
+    strapi-utils "3.4.0"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
@@ -10393,10 +10398,10 @@ strapi-provider-upload-cloudinary@3.4.0:
     cloudinary "^1.23.0"
     into-stream "^5.1.0"
 
-strapi-provider-upload-local@3.3.4:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.3.4.tgz#58f5a86a7b41ed15b193d3f7469ed23bfa689081"
-  integrity sha512-gH1plLdSnrJ3nzpy7DPpSfBCtBMP+Ne0U061CojRtDEH7ljngP5Hdtb3QaEmw5v5C8LM/ieYH/g5TzEo8v4f6Q==
+strapi-provider-upload-local@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.4.0.tgz#6e7cf59027bac4f10a538e271fad8d365698ce32"
+  integrity sha512-yB3dOU/9kPDrUB8c1M59tBpduJ/65ANQiu4OXUz2SYcRNAaLgMHC70hqzrXNsBJLT3lBjOcLqgbDTCBPNgjwmQ==
 
 strapi-utils@3.3.4:
   version "3.3.4"
