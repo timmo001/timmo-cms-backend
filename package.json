@@ -13,7 +13,7 @@
   "devDependencies": {},
   "dependencies": {
     "dotenv": "8.2.0",
-    "knex": "0.21.13",
+    "knex": "0.21.14",
     "path": "0.12.7",
     "pg": "8.5.1",
     "rimraf": "3.0.2",
