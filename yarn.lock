@@ -10436,10 +10436,10 @@ strapi-provider-email-sendmail@3.4.1:
     sendmail "^1.6.1"
     strapi-utils "3.4.1"
 
-strapi-provider-upload-cloudinary@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.4.1.tgz#3d74d1409f42bf3d1dc2abc6d00843fb6032f04d"
-  integrity sha512-z6TPUAVOuqERZmkgSZLaon9Lrxq6oMYadj62TswbOXL/IdQ82Gcd1goGVKhnQDKM3KcLfZxbydJLlBVFj29CnA==
+strapi-provider-upload-cloudinary@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.4.2.tgz#992fdee15fd9fe129cd34b722cddbdccb52f9b81"
+  integrity sha512-szMIb8sZW4gC3mt0WCPWQy3oFc8r1WfSjFBFWnzjSKBJI7YXUq0wznWSRel9/qVIUSh+0Df4P61AjYIb3UiAmw==
   dependencies:
     cloudinary "^1.23.0"
     into-stream "^5.1.0"
