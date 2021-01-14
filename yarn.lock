@@ -10438,17 +10438,17 @@ strapi-plugin-graphql@3.4.1:
     pluralize "^8.0.0"
     strapi-utils "3.4.1"
 
-strapi-plugin-upload@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.4.1.tgz#ed424ec0913a77aabd4fda84072b383de3664228"
-  integrity sha512-TriPkCjV9hB5KrksB+DgJotouPuoUFLxFZV1VeCyd604cMFrn5b7N4DNLrTZyTSAjT5daNSrys3+tPKj/f3zyw==
+strapi-plugin-upload@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.4.2.tgz#1f8a5d538dd2e0d29b8487ab8517182be9933f54"
+  integrity sha512-5BK7vqXMC5m/ahDOtTQdTU7TfLppcuGwzRVMO8AMpI7boy6/S0AQuppyFiMeks6Pvrjrlomx0+fEjbRnbS0veg==
   dependencies:
-    "@buffetjs/core" "3.3.3"
-    "@buffetjs/custom" "3.3.3"
-    "@buffetjs/hooks" "3.3.3"
-    "@buffetjs/icons" "3.3.3"
-    "@buffetjs/styles" "3.3.3"
-    "@buffetjs/utils" "3.3.3"
+    "@buffetjs/core" "3.3.3-next.2"
+    "@buffetjs/custom" "3.3.3-next.2"
+    "@buffetjs/hooks" "3.3.3-next.2"
+    "@buffetjs/icons" "3.3.3-next.2"
+    "@buffetjs/styles" "3.3.3-next.2"
+    "@buffetjs/utils" "3.3.3-next.2"
     byte-size "^7.0.0"
     cropperjs "^1.5.6"
     immer "^7.0.14"
@@ -10456,7 +10456,7 @@ strapi-plugin-upload@3.4.1:
     is-valid-domain "0.0.15"
     koa-range "0.3.0"
     koa-static "^5.0.0"
-    lodash "4.17.19"
+    lodash "4.17.20"
     node-fetch "2.6.1"
     react "^16.13.1"
     react-copy-to-clipboard "^5.0.1"
@@ -10467,9 +10467,9 @@ strapi-plugin-upload@3.4.1:
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     sharp "0.26.2"
-    strapi-helper-plugin "3.4.1"
-    strapi-provider-upload-local "3.4.1"
-    strapi-utils "3.4.1"
+    strapi-helper-plugin "3.4.2"
+    strapi-provider-upload-local "3.4.2"
+    strapi-utils "3.4.2"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
@@ -10521,10 +10521,10 @@ strapi-provider-upload-cloudinary@3.4.2:
     cloudinary "^1.23.0"
     into-stream "^5.1.0"
 
-strapi-provider-upload-local@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.4.1.tgz#30a71ca3e955ef44842501426736e1496a41410f"
-  integrity sha512-nD+1ikRRBginqXpD6KhHpz8Pm8n70+UD+3QX0nDnUvhRk7GTRl+6ZGAiPbZToG0EvPmcp+5MkN+Aj7kQBEQ4Zg==
+strapi-provider-upload-local@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.4.2.tgz#206d9c92dc3760d5efdfff51eb2e979f0b6fe4ae"
+  integrity sha512-d/e3v9617C76PmbluTX5IOIphOx6md7/ck7sJtjbM5H7dW2fN2/IL7HxYvPWrpjcKBCX3QQ6KsIVQ7L2PJwFaw==
 
 strapi-utils@3.4.1:
   version "3.4.1"
