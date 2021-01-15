@@ -10199,10 +10199,37 @@ strapi-helper-plugin@3.4.2:
     styled-components "^5.0.0"
     whatwg-fetch "^3.5.0"
 
-strapi-plugin-content-manager@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.4.2.tgz#7be9dad23766d36d8db646654599ec1d436673d4"
-  integrity sha512-ZmwP/9KeEfxHoioYc/2quKpvFjVR1AMIby24rA8dYZY94FO+Tl4RCEBVWwOiVprHOE0QYZEPpAksNyywhLWuXw==
+strapi-helper-plugin@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.4.3.tgz#9c2ce2aff526a8fc3a2acb7a829cb4db381576ee"
+  integrity sha512-TTfrC4nc+Zo2bftJn1yL4o5WCXi+R5SJDkMgV8paqGmHZSwgp610hpUt+4P9fMBtXGafEH5LUsTYbkdju9+Org==
+  dependencies:
+    "@buffetjs/core" "3.3.3-next.2"
+    "@buffetjs/custom" "3.3.3-next.2"
+    "@buffetjs/hooks" "3.3.3-next.2"
+    "@buffetjs/icons" "3.3.3-next.2"
+    "@buffetjs/styles" "3.3.3-next.2"
+    "@buffetjs/utils" "3.3.3-next.2"
+    bootstrap "^4.5.3"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "4.17.20"
+    moment "^2.29.1"
+    react "^16.13.1"
+    react-dom "^16.9.0"
+    react-helmet "^6.1.0"
+    react-intl "4.5.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^3.5.0"
+
+strapi-plugin-content-manager@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.4.3.tgz#ccfbd56401d8536eea09f8e969d7019543485395"
+  integrity sha512-mS49g9ytYzlg+mKsl1VE7fOjmeWTGtlnNXNnzyI1K/oAI0aSn021Qs/clWn+UkrI4Fb/DBvxmQRa7ra5wiT7rQ==
   dependencies:
     "@buffetjs/core" "3.3.3-next.2"
     "@buffetjs/custom" "3.3.3-next.2"
@@ -10241,8 +10268,8 @@ strapi-plugin-content-manager@3.4.2:
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
     sanitize-html "2.1.1"
-    strapi-helper-plugin "3.4.2"
-    strapi-utils "3.4.2"
+    strapi-helper-plugin "3.4.3"
+    strapi-utils "3.4.3"
     yup "^0.27.0"
 
 strapi-plugin-content-type-builder@3.4.2:
@@ -10432,6 +10459,18 @@ strapi-utils@3.4.2:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.4.2.tgz#44e92f22c31f0e39667aa7b33078dc89bc07baad"
   integrity sha512-nLJ5KqefvPzqENtG2Gx3AuseLUqmBV1/zgTKJJJNEFSi2wR8XFpstJMYiMT39BR2naksf7EuiOo1y/3ds1qTyQ==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.20"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.4.3.tgz#d63b732773b316246053465e402c0920c0e439b3"
+  integrity sha512-86lpKa7pyMWKUezz2GCH89lwsPsWtiJUMbDrvryKY8KLgTx2kU0kkD6An2H4EMVArGGUg6+YmoUHEyQ83+oiAQ==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
