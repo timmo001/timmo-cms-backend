@@ -10309,14 +10309,14 @@ strapi-plugin-documentation@3.4.2:
     strapi-helper-plugin "3.4.2"
     swagger-ui-dist "3.35.0"
 
-strapi-plugin-email@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.4.2.tgz#81ab22f83d58b0b3b00b3817973baa93ccbd8b85"
-  integrity sha512-XqS5h2EdcUhq63QnGrvQG7KuTsmzZfkA46aXGiQ38j8+SVgTIRpWg9zTIamIbHjnHFnfsdwbfmz4fjToHU+pcg==
+strapi-plugin-email@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.4.3.tgz#a6e30589f67f0d194f43f27ab66bc30152f5ad3a"
+  integrity sha512-8Vlmp20fdnWH1/1CmmJvST4D88gB/H1pLi6/cGz60dTJyV9kTRyd/xjxxsD96V3IfjmzgjqgQp0vQCUzYEYrHw==
   dependencies:
     lodash "4.17.20"
-    strapi-provider-email-sendmail "3.4.2"
-    strapi-utils "3.4.2"
+    strapi-provider-email-sendmail "3.4.3"
+    strapi-utils "3.4.3"
 
 strapi-plugin-graphql@3.4.2:
   version "3.4.2"
@@ -10407,13 +10407,13 @@ strapi-plugin-users-permissions@3.4.2:
     strapi-utils "3.4.2"
     uuid "^3.1.0"
 
-strapi-provider-email-sendmail@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.4.2.tgz#fd15ffd900b33229929c4167d4997dc22763bf84"
-  integrity sha512-GpUA0OB6oQ+XwXWGl+I4LH4DANU4vu/ZxFO4Gl5RCoFaRmdWklezWfbSsC6+CpLHHeNiOqtYIhO6KfI9AELo1w==
+strapi-provider-email-sendmail@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.4.3.tgz#d108e916141c0e37ab0963685fdf2940f975ec05"
+  integrity sha512-Qje1nKu5+0/jMYq7swE+o03k17mo4EAKnTpioZpNI5va/lYWV8EW1UUqaDOuU79XtUKXGGBq5zpAZgS8i75gLw==
   dependencies:
     sendmail "^1.6.1"
-    strapi-utils "3.4.2"
+    strapi-utils "3.4.3"
 
 strapi-provider-upload-cloudinary@3.4.2:
   version "3.4.2"
@@ -10432,6 +10432,18 @@ strapi-utils@3.4.2:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.4.2.tgz#44e92f22c31f0e39667aa7b33078dc89bc07baad"
   integrity sha512-nLJ5KqefvPzqENtG2Gx3AuseLUqmBV1/zgTKJJJNEFSi2wR8XFpstJMYiMT39BR2naksf7EuiOo1y/3ds1qTyQ==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.20"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.4.3.tgz#d63b732773b316246053465e402c0920c0e439b3"
+  integrity sha512-86lpKa7pyMWKUezz2GCH89lwsPsWtiJUMbDrvryKY8KLgTx2kU0kkD6An2H4EMVArGGUg6+YmoUHEyQ83+oiAQ==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
