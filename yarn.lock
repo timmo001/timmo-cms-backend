@@ -10332,10 +10332,10 @@ strapi-plugin-content-type-builder@3.4.3:
     strapi-utils "3.4.3"
     yup "^0.27.0"
 
-strapi-plugin-documentation@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.4.2.tgz#d2c663fc11b42fb738f59958ade97842a151b9ee"
-  integrity sha512-C8c5E3h9jnf9mOhf0Do89y9rNZUL6acVZpegM2H8AXxneHPpFe7+Dnv7+gctIlqY46P+Xch+k23zvXvn/ZXVFg==
+strapi-plugin-documentation@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.4.3.tgz#ac6e3f0f02b61a8e8bcea22df1b9008f7d01af3b"
+  integrity sha512-x4OD614tdCxiFlPex2kGfcHDuFB7KnR+FsESVHvCH+ND8FsKxsW/DYbfVPluIPKz9nPuiNYquQUIG706qw/x0A==
   dependencies:
     "@buffetjs/core" "3.3.3-next.2"
     "@buffetjs/custom" "3.3.3-next.2"
@@ -10361,8 +10361,8 @@ strapi-plugin-documentation@3.4.2:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-helper-plugin "3.4.2"
-    swagger-ui-dist "3.35.0"
+    strapi-helper-plugin "3.4.3"
+    swagger-ui-dist "3.39.0"
 
 strapi-plugin-email@3.4.3:
   version "3.4.3"
@@ -10784,10 +10784,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-swagger-ui-dist@3.35.0:
-  version "3.35.0"
-  resolved "https://registry.yarnpkg.com/swagger-ui-dist/-/swagger-ui-dist-3.35.0.tgz#af68c2164aba18847d951e6bee19f5b1e3aca98f"
-  integrity sha512-VdjOd7Lpj3LU6V/SG9BHZHTJ5cTk+uoyHBrGAeEP70SYf7GflLYqw7USUNxoraEx72vIA1wqogMv4GiRqMr8lA==
+swagger-ui-dist@3.39.0:
+  version "3.39.0"
+  resolved "https://registry.yarnpkg.com/swagger-ui-dist/-/swagger-ui-dist-3.39.0.tgz#94fcd76316cc9925a77d41fdbfdfdccd6fa1a0a6"
+  integrity sha512-mNCdhxMvYH0E96ebDX5LL3Yj8zMqC/HFAN5YDjwYxuetEewZ6onBrBBSJsWcl6vCxbEbtS2qBiy9OtBY+YyndQ==
 
 switchback@^2.0.1:
   version "2.0.5"
