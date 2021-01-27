@@ -22,13 +22,13 @@
     "strapi-connector-bookshelf": "3.4.5",
     "strapi-plugin-content-manager": "3.4.4",
     "strapi-plugin-content-type-builder": "3.4.4",
-    "strapi-plugin-documentation": "3.4.4",
+    "strapi-plugin-documentation": "3.4.5",
     "strapi-plugin-email": "3.4.4",
-    "strapi-plugin-graphql": "3.4.4",
+    "strapi-plugin-graphql": "3.4.5",
     "strapi-plugin-upload": "3.4.4",
     "strapi-plugin-users-permissions": "3.4.4",
     "strapi-provider-upload-cloudinary": "3.4.4",
-    "strapi-utils": "3.4.4",
+    "strapi-utils": "3.4.5",
     "unzip-stream": "0.3.1"
   }
 }
