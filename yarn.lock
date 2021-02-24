@@ -10455,10 +10455,10 @@ strapi-plugin-content-type-builder@3.5.0:
     strapi-utils "3.5.0"
     yup "^0.27.0"
 
-strapi-plugin-documentation@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.5.0.tgz#b1348c6cf90d368d826806c38a719d9fe99dc133"
-  integrity sha512-YVMAI/C1PIeggrh4LqxwbmvNw3N1qCEHulERej4AI2Sm7SOBauDjSDivqerfCaoptK45g9L+Hcrqn76xhG+18Q==
+strapi-plugin-documentation@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.5.1.tgz#cf2135f816ecc740bb763da2934b4aee6be9b325"
+  integrity sha512-W2kNA86GaVVCZ7vYkrZhDH97hJLZbQMneFymfPrX6UQWfW/u5KH+ENlcYHj0lLqEGzpZeoh10lTKhPyp2YOThg==
   dependencies:
     "@buffetjs/core" "3.3.4"
     "@buffetjs/custom" "3.3.4"
@@ -10484,7 +10484,7 @@ strapi-plugin-documentation@3.5.0:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-helper-plugin "3.5.0"
+    strapi-helper-plugin "3.5.1"
     swagger-ui-dist "3.43.0"
 
 strapi-plugin-email@3.5.1:
