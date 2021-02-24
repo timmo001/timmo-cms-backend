@@ -28,7 +28,7 @@
     "strapi-plugin-upload": "3.5.0",
     "strapi-plugin-users-permissions": "3.5.0",
     "strapi-provider-upload-cloudinary": "3.5.0",
-    "strapi-utils": "3.5.0",
+    "strapi-utils": "3.5.1",
     "unzip-stream": "0.3.1"
   }
 }
