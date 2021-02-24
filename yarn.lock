@@ -9838,20 +9838,15 @@ shimmer@^1.1.0:
   resolved "https://registry.yarnpkg.com/shimmer/-/shimmer-1.2.1.tgz#610859f7de327b587efebf501fb43117f9aff337"
   integrity sha512-sQTKC1Re/rM6XyFM6fIAGHRPVGvyXfgzIDvzoq608vM+jeyVD0Tu1E6Np0Kc2zAIFWIj963V2800iF/9LPieQw==
 
-sift@13.1.10:
-  version "13.1.10"
-  resolved "https://registry.yarnpkg.com/sift/-/sift-13.1.10.tgz#53cd1052c0214dc5d28a931e154191cce5cba942"
-  integrity sha512-Z+7ZMTbnmbuVCwER+8jNerXpuJNYsxFSZf1er8VUqF/qYdgTrG5o5TQ7C6nWDycQY/TA1pczVCj58y5RvrUtrA==
+sift@13.5.0, sift@^13.0.0:
+  version "13.5.0"
+  resolved "https://registry.yarnpkg.com/sift/-/sift-13.5.0.tgz#0f46fd0b2432bd516307d2c32bff3b142a8ab530"
+  integrity sha512-YoS8hmXbmJcf1Gde5bR7+pq69+Nvfv5eHTyv4B00YxJAejTEfzvamG8LHzb0jAFFciMkY05K7GG3P7n/gm0+gg==
 
 sift@7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/sift/-/sift-7.0.1.tgz#47d62c50b159d316f1372f8b53f9c10cd21a4b08"
   integrity sha512-oqD7PMJ+uO6jV9EQCl0LrRw1OwsiPsiFQR5AR30heR+4Dl7jBBbDLnNvWiak20tzZlSE1H7RB30SX/1j/YYT7g==
-
-sift@^13.0.0:
-  version "13.3.1"
-  resolved "https://registry.yarnpkg.com/sift/-/sift-13.3.1.tgz#ca091e594724ec153e5dae15390f5ef144f06bc3"
-  integrity sha512-cM9m8LY5Jm8K2E3+dNw4g9/nXeiCSCkzjavgo6iOrfTNVjm26jDKov+HhWpizb56MOuyZlpNrO2YwovANi9svQ==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
@@ -10103,10 +10098,10 @@ std-env@^2.2.1:
   dependencies:
     ci-info "^1.6.0"
 
-strapi-admin@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/strapi-admin/-/strapi-admin-3.5.0.tgz#d425693f1aa9a57c34b63f4c6e8c1fa5016c26aa"
-  integrity sha512-HiMByzPhwI1qu2w62J75IPrq0+UE/LD6FpBv1k7naPPrM8eIMwHPhDzkZLialJMvEK/lwjmYAbfqQaCf6LN/KA==
+strapi-admin@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/strapi-admin/-/strapi-admin-3.5.1.tgz#c0b3e2a737c78d0c7039a62828bb34058416d148"
+  integrity sha512-WwvVcT35P4+Z7YK70vYyDwcMttLU2xQPk+pSsnrZVTWFVqV6u1Viq/eLGAYJRUQzp73qWcPM0Mr/t1vrNUiYVA==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/plugin-proposal-async-generator-functions" "^7.12.12"
@@ -10191,9 +10186,9 @@ strapi-admin@3.5.0:
     reselect "^4.0.0"
     sanitize.css "^4.1.0"
     semver "7.3.4"
-    sift "13.1.10"
-    strapi-helper-plugin "3.5.0"
-    strapi-utils "3.5.0"
+    sift "13.5.0"
+    strapi-helper-plugin "3.5.1"
+    strapi-utils "3.5.1"
     style-loader "^0.23.1"
     styled-components "^5.0.0"
     terser-webpack-plugin "^1.2.3"
