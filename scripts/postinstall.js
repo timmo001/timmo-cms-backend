@@ -1,4 +1,4 @@
-const fs = require('fs-extra');
+const fs = require("fs-extra");
 
 async function postinstall() {
   // Path of the package.json file
@@ -7,24 +7,21 @@ async function postinstall() {
   try {
     if (fs.exists(filePath)) {
       // Read the package.json inside the backend directory (strapi)
-      const packageJSON = await fs.readJSON(
-        filePath
-      );
+      const packageJSON = await fs.readJSON(filePath);
 
       // Change the uuid inside the package.json
       await fs.writeJson(filePath, {
         ...packageJSON,
         strapi: { uuid: `STRAPI-STARTER-BLOG-PRODUCTION` },
       });
-    }
-    else {
+    } else {
     }
   } catch (e) {
     console.error(e);
   }
-};
+}
 
-postinstall().catch(error => {
+postinstall().catch((error) => {
   console.error(error);
   process.exit(1);
 });

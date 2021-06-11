@@ -14,7 +14,9 @@ if (process.env.DATABASE_URL) {
   output += `DATABASE_NAME=${databaseName}${newLine}`;
   output += `DATABASE_USERNAME=${username}${newLine}`;
   output += `DATABASE_PASSWORD=${password}${newLine}`;
-  output += `ADMIN_JWT_SECRET=${require('crypto').randomBytes(64).toString('base64')}`;
+  output += `ADMIN_JWT_SECRET=${require("crypto")
+    .randomBytes(64)
+    .toString("base64")}`;
 
   fs.writeFile(`./.env`, output, (err) => {
     if (err) {
