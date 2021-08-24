@@ -10173,6 +10173,15 @@ strapi-generate-api@3.6.3:
     pluralize "^8.0.0"
     strapi-utils "3.6.3"
 
+strapi-generate-api@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.6.8.tgz#e198e868e873e9134b1c1c1b71a2111e4c3edbba"
+  integrity sha512-+AyCumWpgZunG0QwDvviBudUGHofdkTucRoiVgYHkWA25S8pBFLj0ibfB9Po1eg20OCT1DTw4U/4uBFH8MPZ2w==
+  dependencies:
+    lodash "4.17.21"
+    pluralize "^8.0.0"
+    strapi-utils "3.6.8"
+
 strapi-generate-controller@3.6.3:
   version "3.6.3"
   resolved "https://registry.yarnpkg.com/strapi-generate-controller/-/strapi-generate-controller-3.6.3.tgz#e165f28df3baac5266d1bd7727558d56a5b9d2d0"
@@ -10243,6 +10252,17 @@ strapi-generate@3.6.3:
     lodash "4.17.21"
     reportback "^2.0.2"
     strapi-utils "3.6.3"
+
+strapi-generate@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.6.8.tgz#54a7b8bf84f807dd654d32554201c28bc62d445f"
+  integrity sha512-QdSHlLa9VbEBwSfdMCmtcOkXYxlwWiSw3AoKlTHeydPYb2xlGyWqxxH0OTzEi0rKjpFmqao9At5dkwChyp8wmQ==
+  dependencies:
+    async "^2.6.2"
+    fs-extra "^9.1.0"
+    lodash "4.17.21"
+    reportback "^2.0.2"
+    strapi-utils "3.6.8"
 
 strapi-helper-plugin@3.6.3:
   version "3.6.3"
@@ -10353,17 +10373,17 @@ strapi-plugin-content-manager@3.6.3:
     strapi-utils "3.6.3"
     yup "^0.28.2"
 
-strapi-plugin-content-type-builder@3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.6.3.tgz#430a66d45b97870b62b9e9a102c335cb90923da3"
-  integrity sha512-gy63BflDzLWzjqtI4MsUN//v2mun6kBflohm+mPwIQlSIODazQ4ukLg6SQHOualxtraKaZluaX2gi+K92c03nw==
+strapi-plugin-content-type-builder@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.6.8.tgz#dcfbbec823d997e1f103c64f2b05e53914d46090"
+  integrity sha512-kxCPNHV15JmNz3PUdb/8I5mj4i0n8HicumSvqZh3LxovUaIqd0tGioMd4pJ3BY8XcPI7SpdZrEsbPHTqlQIEvg==
   dependencies:
-    "@buffetjs/core" "3.3.6"
-    "@buffetjs/custom" "3.3.6"
-    "@buffetjs/hooks" "3.3.6"
-    "@buffetjs/icons" "3.3.6"
-    "@buffetjs/styles" "3.3.6"
-    "@buffetjs/utils" "3.3.6"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     "@sindresorhus/slugify" "1.1.0"
     fs-extra "^9.1.0"
     immutable "^3.8.2"
@@ -10379,11 +10399,11 @@ strapi-plugin-content-type-builder@3.6.3:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-generate "3.6.3"
-    strapi-generate-api "3.6.3"
-    strapi-helper-plugin "3.6.3"
-    strapi-utils "3.6.3"
-    yup "^0.28.2"
+    strapi-generate "3.6.8"
+    strapi-generate-api "3.6.8"
+    strapi-helper-plugin "3.6.8"
+    strapi-utils "3.6.8"
+    yup "^0.32.9"
 
 strapi-plugin-documentation@3.6.3:
   version "3.6.3"
