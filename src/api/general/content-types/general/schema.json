@@ -4,7 +4,8 @@
   "info": {
     "singularName": "general",
     "pluralName": "generals",
-    "displayName": "general"
+    "displayName": "General",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,13 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "header": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "footer": {
       "type": "richtext"
