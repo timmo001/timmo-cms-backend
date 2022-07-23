@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "4.1.5",
-    "@strapi/plugin-i18n": "4.1.5",
-    "@strapi/plugin-seo": "1.7.2",
-    "@strapi/plugin-users-permissions": "4.1.5",
-    "@strapi/provider-upload-cloudinary": "4.1.5",
-    "@strapi/strapi": "4.1.5",
+    "@strapi/plugin-graphql": "4.2.3",
+    "@strapi/plugin-i18n": "4.2.3",
+    "@strapi/plugin-seo": "1.7.4",
+    "@strapi/plugin-users-permissions": "4.2.3",
+    "@strapi/provider-upload-cloudinary": "4.2.3",
+    "@strapi/strapi": "4.2.3",
     "pg": "8.7.3",
     "pg-connection-string": "2.5.0",
-    "sqlite3": "5.0.2",
-    "strapi-plugin-sitemap": "2.0.6"
+    "sqlite3": "5.0.10",
+    "strapi-plugin-sitemap": "2.0.8"
   },
   "author": {
     "name": "Aidan Timson <Timmo>",
