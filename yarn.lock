@@ -1926,15 +1926,15 @@
     "@strapi/utils" "4.2.3"
     lodash "4.17.21"
 
-"@strapi/plugin-graphql@4.2.3":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-graphql/-/plugin-graphql-4.2.3.tgz#02b412de14956320abc660e94ac810cfe0fc9745"
-  integrity sha512-D8qXhjbHR7mmelQEOhG91p+0wAeuMXexm+Li9q1eKVd2rkNEjU9UNZrJgwSKB8awQQJnooe5hOEpyN90tn+VyQ==
+"@strapi/plugin-graphql@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-graphql/-/plugin-graphql-4.3.0.tgz#08f9af907806671d73798993db6886cfb5f7ff9e"
+  integrity sha512-h/Iet6bTlQCduVnIJOnRAtlbcK/cDFkl2rFw2JwnuScTRxSgREzdqSCqIao34m8FN/avUEFK3EZY+HuIMuW4NA==
   dependencies:
     "@apollo/federation" "^0.28.0"
     "@graphql-tools/schema" "8.1.2"
     "@graphql-tools/utils" "^8.0.2"
-    "@strapi/utils" "4.2.3"
+    "@strapi/utils" "4.3.0"
     apollo-server-core "3.1.2"
     apollo-server-koa "3.1.2"
     glob "^7.1.7"
@@ -2102,6 +2102,17 @@
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.2.3.tgz#4970361779581e5e01b7b824f8ee4c189bc87857"
   integrity sha512-ICkOI+JqSYyocwazZlaUz6oHgacyx3H5V9edeAdhISXjfZRX6GjtUDElTfQdGj9xsUUYSApFvY0DaiLTc0Utpg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.28.0"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.3.0.tgz#335bbec19c5c82a14542502e4ea275af39b86c1c"
+  integrity sha512-wizuvJX8yGB3T+VU83ZJ0hiWS+rBsLFLMzbSR54b858HSyjWHQWotcxMboxRKu1MZsmX3uXzY1RK8pF22bLTng==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.28.0"
@@ -5863,7 +5874,7 @@ glob-to-regexp@^0.4.1:
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz#c75297087c851b9a578bd217dd59a92f59fe546e"
   integrity sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==
 
-glob@7.2.0, glob@^7.1.3, glob@^7.1.7:
+glob@7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
   integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
@@ -5875,7 +5886,7 @@ glob@7.2.0, glob@^7.1.3, glob@^7.1.7:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.1.4, glob@^7.1.6:
+glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.1.7:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
