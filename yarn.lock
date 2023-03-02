@@ -1951,12 +1951,12 @@
     pluralize "^8.0.0"
     subscriptions-transport-ws "0.9.19"
 
-"@strapi/plugin-i18n@4.2.3":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.2.3.tgz#8a94a89d6a7f12bbb85db5c63028e5fe761c1957"
-  integrity sha512-yxaLaQRlnyi9V4nFpL7avroSwHAMJxTX6VR0aOOdksp4EwQBosbx7wcpQMpFSPf6sxET60TlV/TKop6TIL5ffg==
+"@strapi/plugin-i18n@4.7.1":
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.7.1.tgz#5b3cdfd400609c62e0b06a586b954819b18d36f4"
+  integrity sha512-HPS4za1Qm68CSYywDpz673rHoUeTxPSUDWmRH9L8cpPsxCSk1eJ+Rh/+0cQAagYYmUudrEq+ShF7AlfHmnl0yg==
   dependencies:
-    "@strapi/utils" "4.2.3"
+    "@strapi/utils" "4.7.1"
     lodash "4.17.21"
 
 "@strapi/plugin-seo@1.7.4":
@@ -2107,6 +2107,18 @@
     date-fns "2.28.0"
     http-errors "1.8.1"
     lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.7.1":
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.7.1.tgz#d019f9f10d3856e1aff3ffe670ad7564b6005ad8"
+  integrity sha512-qlUG5//Rk1Yr+PYcE9S+Q76qjxFIQBZEkw8psk6E287bO8Fd7AKshF1HXaQJkSD+hncYnPmLt5Uhe/r22xX/PA==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.29.3"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    p-map "4.0.0"
     yup "0.32.9"
 
 "@szmarczak/http-timer@^4.0.5":
@@ -4480,6 +4492,11 @@ date-fns@2.28.0:
   version "2.28.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
+
+date-fns@2.29.3:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
+  integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
